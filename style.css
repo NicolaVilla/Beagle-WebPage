@@ -1,0 +1,266 @@
+/* MAIN BODY*/
+body{
+    background-color: whitesmoke;
+
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* PRIMERA LINEA --------------------------------------*/
+.header{
+
+
+   padding-right: 250px;
+   padding-left: 220px;
+   padding-top: 20px;
+    
+    background-color: #c49000;
+    color: #F9FAF8;
+
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: -50px;
+
+    
+}
+
+
+.header-logo{
+    width: 200px;
+    height: auto;
+
+    
+   font-size: 24px;
+   font-weight: bold; 
+   font-family: "Hero Main text", sans-serif;
+    margin-top: -50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul.header-links{
+
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+    
+}
+
+
+/* SEGUNDA LINEA    ---------------------------------*/
+
+.content{
+    
+
+    padding-top: 0;
+
+    background-color: #c49000;
+    color: #F9FAF8;
+
+    padding-right: 250px;
+    padding-left: 250px;
+    
+    padding-bottom: 100px;
+
+    
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    gap: 100px;
+}
+.content-left{
+    
+}
+
+.content-title{
+    font-family: "Hero Main text", sans-serif;
+    font-size: 48px;
+}
+
+.content-subtext{
+    font-family: "Hero Secondaty text", sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.content-right{
+    
+    margin-top: 16px;
+
+    /*background-color: gray;*/
+
+    width: 600px;
+    height: inherit;
+
+    
+}
+
+.content-img{
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+
+button{
+    background-color: #c67100;
+    color: #F9FAF8;
+
+    width: 120px;
+    height: 40px;
+
+    padding: 8px 16px;
+    border: 3px solid black;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+/* TERCERA LINEA*/
+
+.information{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100PX;
+}
+
+.info-contenedores{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.info{
+    text-align: center;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info-img{
+    width: 150px;
+    height: 150px;
+   
+
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+
+.info-title{
+    font-size: 50px;
+}
+
+/* CUARTA LINEA */
+
+.cita{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cita-back{
+    background-color: #cbba83; 
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.cita-text{
+    font-style: light italic;
+    font-size: 36px;
+   
+    color: #1F2937;
+}
+
+.cita-autor{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+
+    text-align: right;
+    padding-right: 30px;
+}
+
+
+
+
+/* QUINTA LINEA*/
+
+.signup{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+
+    background-color: #c67100;
+    color: #E5E7EB;
+
+    border-radius: 15px;
+
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-title{
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    
+}
+
+.signup-subtext{
+
+    font-size: 18px;
+
+    margin-bottom: 10px;
+
+    
+}
+
+.signup-button{
+    background-color: #ffa000;
+    border: 2px solid #E5E7EB;
+}
+
+/* SEXTA LINEA*/
+
+
+.footer{
+   height: 100px;
+   
+    background-color: #c49000;
+    color: #E5E7EB;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
