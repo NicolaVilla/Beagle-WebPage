@@ -114,6 +114,16 @@ ul.header-links{
     border-radius: 30px;
 }
 
+a{
+    cursor:pointer;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
 button{
     background-color: #c67100;
     color: black;
@@ -127,6 +137,8 @@ button{
 
     font-size: 18px;
     font-weight: bold;
+
+    cursor: pointer;
 }
 
 button:hover{
@@ -174,6 +186,8 @@ button:hover{
 
     border: 3px solid black;
     border-radius: 15px;
+
+    transition: all 0.6s;
 }
 
 .info-img:hover{
