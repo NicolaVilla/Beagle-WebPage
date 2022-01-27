@@ -1,3 +1,7 @@
+:root{
+    --button-hoverOn: #ffa000
+}
+
 /* MAIN BODY*/
 body{
     background-color: whitesmoke;
@@ -125,6 +129,13 @@ button{
     font-weight: bold;
 }
 
+button:hover{
+    background-color: var(--button-hoverOn);
+    transform: scale(1.2);
+    box-shadow: 2px 2px 5px  #888;
+
+}
+
 .content-signup{
     width: auto;
 }
@@ -147,6 +158,7 @@ button{
 }
 
 .info{
+    
     text-align: center;
 }
 
@@ -162,6 +174,13 @@ button{
 
     border: 3px solid black;
     border-radius: 15px;
+}
+
+.info-img:hover{
+    
+    transform: scale(2);
+    box-shadow: 2px 2px 5px  #888;
+    
 }
 
 
