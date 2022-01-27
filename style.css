@@ -20,7 +20,7 @@ body{
    padding-top: 20px;
     
     background-color: #c49000;
-    color: #F9FAF8;
+    color: black;
 
 
     display: flex;
@@ -65,7 +65,7 @@ ul.header-links{
     padding-top: 0;
 
     background-color: #c49000;
-    color: #F9FAF8;
+    color:  black;
 
     padding-right: 250px;
     padding-left: 250px;
@@ -88,7 +88,7 @@ ul.header-links{
 .content-subtext{
     font-family: "Hero Secondaty text", sans-serif;
     font-size: 18px;
-    color: #E5E7EB;
+    color: black;
 }
 .content-right{
     
@@ -112,7 +112,7 @@ ul.header-links{
 
 button{
     background-color: #c67100;
-    color: #F9FAF8;
+    color: black;
 
     width: 120px;
     height: 40px;
@@ -216,7 +216,7 @@ button{
     margin-right: 350px;
 
     background-color: #c67100;
-    color: #E5E7EB;
+    color: black;
 
     border-radius: 15px;
 
@@ -249,7 +249,7 @@ button{
 
 .signup-button{
     background-color: #ffa000;
-    border: 2px solid #E5E7EB;
+    border: 2px solid black;
 }
 
 /* SEXTA LINEA*/
@@ -259,7 +259,7 @@ button{
    height: 100px;
    
     background-color: #c49000;
-    color: #E5E7EB;
+    color: black;
 
     text-align: center;
 
